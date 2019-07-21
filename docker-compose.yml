@@ -1,0 +1,28 @@
+version: '2'
+services:
+  firefox:
+    image: selenium/node-firefox-debug
+    ports:
+      - "5901:5900"
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - hub
+    environment:
+      HUB_HOST: hub
+
+  chrome:
+    image: selenium/node-chrome-debug
+    ports:
+      - "5900:5900"
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - hub
+    environment:
+      HUB_HOST: hub
+
+  hub:
+    image: selenium/hub
+    ports:
+      - "4444:4444"

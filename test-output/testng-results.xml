@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-method Suite" duration-ms="46487" started-at="2019-07-21T09:42:11Z" finished-at="2019-07-21T09:42:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46487" started-at="2019-07-21T09:42:11Z" finished-at="2019-07-21T09:42:57Z">
+      <class name="com.selenium.docker.example.tests.LoginTestsFirefox">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsFirefox@7c16905e]" name="setupTest" is-config="true" duration-ms="12736" started-at="2019-07-21T10:42:11Z" finished-at="2019-07-21T10:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsFirefox@7c16905e]" name="loginTest" duration-ms="2131" started-at="2019-07-21T10:42:24Z" finished-at="2019-07-21T10:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsFirefox@7c16905e]" name="teardownTest" is-config="true" duration-ms="6820" started-at="2019-07-21T10:42:26Z" finished-at="2019-07-21T10:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsFirefox@7c16905e]" name="setupTest" is-config="true" duration-ms="11359" started-at="2019-07-21T10:42:33Z" finished-at="2019-07-21T10:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsFirefox@7c16905e]" name="logoutTest" duration-ms="2667" started-at="2019-07-21T10:42:44Z" finished-at="2019-07-21T10:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsFirefox@7c16905e]" name="teardownTest" is-config="true" duration-ms="1117" started-at="2019-07-21T10:42:47Z" finished-at="2019-07-21T10:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsFirefox@7c16905e]" name="setupTest" is-config="true" duration-ms="6273" started-at="2019-07-21T10:42:48Z" finished-at="2019-07-21T10:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsFirefox@7c16905e]" name="titleTest" duration-ms="62" started-at="2019-07-21T10:42:54Z" finished-at="2019-07-21T10:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsFirefox@7c16905e]" name="teardownTest" is-config="true" duration-ms="3272" started-at="2019-07-21T10:42:54Z" finished-at="2019-07-21T10:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.selenium.docker.example.tests.LoginTestsFirefox -->
+      <class name="com.selenium.docker.example.tests.LoginTestsChrome">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsChrome@1753acfe]" name="setupTest" is-config="true" duration-ms="4765" started-at="2019-07-21T10:42:11Z" finished-at="2019-07-21T10:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsChrome@1753acfe]" name="loginTest" duration-ms="9088" started-at="2019-07-21T10:42:16Z" finished-at="2019-07-21T10:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsChrome@1753acfe]" name="teardownTest" is-config="true" duration-ms="69" started-at="2019-07-21T10:42:25Z" finished-at="2019-07-21T10:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsChrome@1753acfe]" name="setupTest" is-config="true" duration-ms="2926" started-at="2019-07-21T10:42:25Z" finished-at="2019-07-21T10:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsChrome@1753acfe]" name="logoutTest" duration-ms="6487" started-at="2019-07-21T10:42:28Z" finished-at="2019-07-21T10:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsChrome@1753acfe]" name="teardownTest" is-config="true" duration-ms="77" started-at="2019-07-21T10:42:34Z" finished-at="2019-07-21T10:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsChrome@1753acfe]" name="setupTest" is-config="true" duration-ms="6218" started-at="2019-07-21T10:42:34Z" finished-at="2019-07-21T10:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsChrome@1753acfe]" name="titleTest" duration-ms="140" started-at="2019-07-21T10:42:41Z" finished-at="2019-07-21T10:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:com.selenium.docker.example.tests.LoginTestsChrome@1753acfe]" name="teardownTest" is-config="true" duration-ms="98" started-at="2019-07-21T10:42:41Z" finished-at="2019-07-21T10:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.selenium.docker.example.tests.LoginTestsChrome -->
+    </test> <!-- Test -->
+  </suite> <!-- Test-method Suite -->
+</testng-results>
